@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+
+#intro{
+  height: 100vh;
+}
+
+#features {
+  background-color: #DECC53;
+  height: 100vh;
+}
+
+#shop {
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+
+.change {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.content {
+  margin-top: 10rem;
+  margin-right: 10rem;
+}
+
+#navbar-example2 {
+  height: 10vh;
+}
+section {
+  padding: 0;
+  margin-top: 10vh;
+}
+#intro {
+  height: 70vh;
+}
+.guy {
+  margin-top: 7.4rem;
+}
+
+/*----- Custom Cards -----*/
+#custom-card, #custom-card-2, #custom-card-3 {
+  width: 21.875rem;
+  height: 31.25rem;
+  backdrop-filter: blur(30px);
+}
+#custom-card {
+  background: hsla(72, 4%, 76%, 0.15);
+  margin-left: 10rem;
+}
+#custom-card-2 {
+  background: hsla(68, 93%, 48%, 0.15);
+  margin-left: -12.5rem;
+}
+#custom-card-3 {
+  background: hsla(208, 78%, 52%, 0.15);
+  margin-left: -34.688rem;
+}
+
+.allcards {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+#reviews {
+  background-color: #A5BDAC;
+  height: 100vh;
+  padding-top: 250px;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  margin-left: 500px;
+}
+
+.ouramazingreviews {
+  margin-left: 500px;
+}
+
+.ourproducts {
+  margin-left: 500px;
+}
+
+.footer-clean {
+  padding: 50px 0;
+  background-color: #fff;
+  color: #4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+.footer-clean .item.social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 50px;
+
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.footermargin {
+  margin-left: 450px;
+}
+
+.marginfootergeneral {
+  margin-right: 525px;
+}
+
+.inputgroupmargin {
+  width: 400px;
+  margin-left: 525px;
+}
+
+#contact {
+  height: 95vh;
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .footer-clean .item.social>a {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social>a {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .guy {
+    width: 200px;
+  }
+
+  #features {
+    height: 200vh;
+    display: block;
+    padding-left: 20vh;
+  }
+
+  .content {
+    padding-top: 0;
+    margin-top: 40px;
+  }
+
+  #intro {
+    padding-top: 15vh;
+    height: 50vh;
+  }
+
+  .change {
+    display: block;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    margin-left: 2.5vh;
+  }
+
+
+  .allcards {
+    flex-direction: column;
+
+  }
+
+  #custom-card {
+    margin-left: 5rem;
+  }
+
+  #custom-card-2 {
+    margin-left: 5rem;
+    margin-top: 2rem;
+
+  }
+
+  #custom-card-3 {
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+
+  #shop {
+    background-color: #FFFFFF;
+    height: 300vh;
+  }
+
+  .carousel-inner {
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 0;
+    height: 100vh;
+    padding-top: 0;
+    margin-top: -10 px;
+  }
+
+  .ouramazingreviews {
+    margin-left: 0;
+    margin-top: -100px;
+
+
+  }
+
+  .ourproducts {
+    margin-left: 0;
+  }
+
+  .paddingfeatures {
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .paddingpricing {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .paddingreviews {
+    margin-left: 20px;
+  }
+
+  .paddingcontact {
+    margin-left: 20px;
+  }
+
+  .marginfootergeneral {
+    margin-left: 0px;
+  }
+}
+
+
